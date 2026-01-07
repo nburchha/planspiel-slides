@@ -22,6 +22,7 @@ Planspiel ABWL | Wintersemester 2025/26
   <span class="px-4 py-2 font-bold bg-gray-100 rounded text-dark-900">Niklas</span>
   <span class="px-4 py-2 font-bold bg-gray-100 rounded text-dark-900 mx-4">Sören</span>
   <span class="px-4 py-2 font-bold bg-gray-100 rounded text-dark-900">Rene</span>
+  <span class="px-4 py-2 font-bold bg-gray-100 rounded text-dark-900 ml-4">Andi</span>
 </div>
 
 ---
@@ -29,17 +30,17 @@ Planspiel ABWL | Wintersemester 2025/26
 # Agenda
 
 <div class="grid grid-cols-3 gap-4 pt-4 text-xl">
-  <div v-click>
+  <div>
     <div class="text-4xl mb-2 text-teal-600">01</div>
     <strong>Strategie & Identität</strong><br>
     Wer ist Velotic?
   </div>
-  <div v-click>
+  <div>
     <div class="text-4xl mb-2 text-teal-600">02</div>
     <strong>Review Periode 1-6</strong><br>
     Entscheidungen & Learnings
   </div>
-  <div v-click>
+  <div>
     <div class="text-4xl mb-2 text-teal-600">03</div>
     <strong>Fazit & Team</strong><br>
     Takeaways & Rollen
@@ -47,20 +48,19 @@ Planspiel ABWL | Wintersemester 2025/26
 </div>
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1532298229144-0ec0c57e3080?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80
+layout: two-cols
 ---
 
 # Wer ist Velotic?
 
-<v-clicks>
+<div>
 
 ### Der Name
 **Velo** (Fahrrad) + **-tic** (Kinetic/Technic)
 *Signalisiert Dynamik, Geschwindigkeit & technologische Raffinesse.*
 
 ### Unsere Mission
-Technologischer Marktführer im Premium-Segment.
+Technologischer Marktführer im Premium-Segment mit Fokus auf E-Bikes.
 Wir bieten **exklusive Qualität** zu **zugänglichen Preisen**.
 
 ### Der Ansatz
@@ -68,26 +68,38 @@ Wir bieten **exklusive Qualität** zu **zugänglichen Preisen**.
 *   **Investitionsorientiert:** Fokus auf F&E und nachhaltiges Wachstum.
 *   **Stabilität:** Langfristige Skalierung statt kurzfristiger Profit.
 
-</v-clicks>
+</div>
+
+::right::
+
+<div class="flex items-center justify-center h-full">
+  <div class="w-80 h-80 rounded-full border-4 border-teal-600 shadow-xl overflow-hidden bg-white flex items-center justify-center">
+     <img 
+      src="/sources/velotic-logo.png" 
+      class="w-full h-full object-cover"
+      alt="Velotic Logo"
+    />
+  </div>
+</div>
 
 ---
 
 # Strategy Statement
 
-<div class="bg-gray-100 p-6 rounded-lg border-l-8 border-teal-600 my-4 text-lg">
+<div class="bg-gray-100 p-6 rounded-lg border-l-8 border-teal-600 my-4 text-lg text-gray-900">
   "Velotic will als technologisch führender Premium-Fahrradhersteller anerkannt werden, indem wir durch innovative und nachhaltige Technologien sowie eine exklusive, aber zugängliche Preisstrategie überlegene Kundenerlebnisse schaffen."
 </div>
 
 <div class="grid grid-cols-3 gap-6 mt-8">
-  <div class="bg-white p-4 shadow-md rounded">
+  <div class="bg-white p-4 shadow-md rounded text-gray-800">
     <div class="text-teal-600 font-bold mb-2">GOAL</div>
     Technologische Marktführerschaft & Premium-Wahrnehmung
   </div>
-  <div class="bg-white p-4 shadow-md rounded">
+  <div class="bg-white p-4 shadow-md rounded text-gray-800">
     <div class="text-teal-600 font-bold mb-2">LOGIC</div>
     Investition in Innovation & Umweltfreundlichkeit
   </div>
-  <div class="bg-white p-4 shadow-md rounded">
+  <div class="bg-white p-4 shadow-md rounded text-gray-800">
     <div class="text-teal-600 font-bold mb-2">SCOPE</div>
     Kontrolliertes Wachstum & Risikominimierung
   </div>
@@ -95,29 +107,29 @@ Wir bieten **exklusive Qualität** zu **zugänglichen Preisen**.
 
 ---
 
-# Erfolgsmessung (Flywheel)
+# Übergeordnete Ziele
+Unsere Leitplanken durch alle Perioden
 
-Wir messen unseren Erfolg in drei Phasen:
-
-<div class="grid grid-cols-3 gap-4 mt-8">
-  <div class="text-center" v-click>
-    <div class="text-5xl mb-4">🧲</div>
-    <h3 class="font-bold text-xl mb-2">Attract</h3>
-    <p class="text-sm">Kundenzufriedenheit</p>
-    <p class="text-sm">Bekanntheitsgrad</p>
+<div class="grid grid-cols-2 gap-4 mt-4">
+  <div class="bg-white p-3 shadow rounded border-b-4 border-teal-500 text-gray-800">
+    <div class="text-3xl mb-1 text-center">⚙️</div>
+    <h3 class="font-bold text-lg mb-1 text-center text-teal-700">100% Auslastung</h3>
+    <p class="text-xs">Maximale Effizienz der teuren Produktionsanlagen (Typ C) sicherstellen.</p>
   </div>
-  <div class="text-center" v-click>
-    <div class="text-5xl mb-4">🤝</div>
-    <h3 class="font-bold text-xl mb-2">Engage</h3>
-    <p class="text-sm">Technologie-Index</p>
-    <p class="text-sm">Umweltindex</p>
-    <p class="text-sm">Corporate Identity</p>
+  <div class="bg-white p-3 shadow rounded border-b-4 border-teal-500 text-gray-800">
+    <div class="text-3xl mb-1 text-center">📉</div>
+    <h3 class="font-bold text-lg mb-1 text-center text-teal-700">Kostenführerschaft</h3>
+    <p class="text-xs">Minimierung der Herstell- und Selbstkosten durch Skaleneffekte.</p>
   </div>
-  <div class="text-center" v-click>
-    <div class="text-5xl mb-4">❤️</div>
-    <h3 class="font-bold text-xl mb-2">Delight</h3>
-    <p class="text-sm">Investition in Vertrieb</p>
-    <p class="text-sm">Service-Qualität</p>
+  <div class="bg-white p-3 shadow rounded border-b-4 border-teal-500 text-gray-800">
+    <div class="text-3xl mb-1 text-center">🔬</div>
+    <h3 class="font-bold text-lg mb-1 text-center text-teal-700">Technologie-Fokus</h3>
+    <p class="text-xs">Positionierung im hohen Mittelfeld für attraktives Preis-Leistungs-Verhältnis.</p>
+  </div>
+  <div class="bg-white p-3 shadow rounded border-b-4 border-teal-500 text-gray-800">
+    <div class="text-3xl mb-1 text-center">🏆</div>
+    <h3 class="font-bold text-lg mb-1 text-center text-teal-700">Marktdominanz</h3>
+    <p class="text-xs">Anstrebung der Marktführerschaft durch signifikante Marktanteile in allen Segmenten.</p>
   </div>
 </div>
 
@@ -135,21 +147,21 @@ layout: two-cols
 # Periode 1: Das Fundament
 **Ausgangssituation & Restrukturierung**
 
-<v-clicks>
+<div>
 
-*   **Strategie:** Qualität vor Quantität.
-*   **Entscheidung:**
-    *   Austausch veralteter Maschinen.
-    *   Einstellung von F&E-Mitarbeitern.
-*   **Problem:** Überziehungskredit durch mangelnde Kalkulation.
-*   **Learning:** Liquiditätsplanung muss präziser werden.
+* **Strategie:** Modernisierung der Fertigung.
+* **Entscheidungen:**
+    * **Fertigungsmaschinen:** Verkauf einer alten Anlage vom Typ A, dafür Kauf von 2 neuen Typ C Anlagen.
+    * **Personal:** Einstellung von drei F&E Mitarbeitern
+* **Problem:** Überziehungskredit (~380K €) durch Unterschätzung hoher Anfangsinvestitionen.
+* **Learning:** Liquiditätsplanung muss die Anlaufkosten neuer Anlagen besser abbilden.
 
-</v-clicks>
+</div>
 
 ::right::
 
-<div class="bg-teal-50 p-6 rounded-lg mt-10 ml-4">
-  <div class="text-3xl font-bold text-teal-800 mb-2">Strategie</div>
+<div class="bg-teal-50 p-6 rounded-lg mt-10 ml-4 text-gray-800">
+  <div class="text-3xl font-bold text-teal-800 mb-2">Idee</div>
   "Grundlegende Restrukturierung für langfristige Effizienz."
 </div>
 
@@ -160,8 +172,9 @@ layout: two-cols
 
 *   **Szenario:** Öffnung des zweiten Marktes.
 *   **Entscheidung:**
-    *   Konsequente Investition in **E-Bike-Forschung**.
-    *   Bewusste Hinnahme von Marktverlusten im City-Bike-Segment.
+    *   Aktiv auf Markt 2, da genug Lagerbestand (4186 Fahrräder)
+    *   Direkter, starker Einstieg in die **E-Bike-Forschung** mit 5 F&E Mitarbeitern.
+    *   City-Bikes nur als Basis des Unternehmens.
 *   **Warum?** Aufbau von Wettbewerbsvorteilen im Wachstumsmarkt.
 
 > "Lieber früh Zukunftskapazitäten aufbauen, als später hinterherlaufen."
@@ -171,24 +184,16 @@ layout: two-cols
 # Periode 3: Skalierung & Risiko
 **Ausbau F&E und Produktion**
 
-<div class="grid grid-cols-2 gap-8">
-  <div>
-    <h3>Maßnahmen</h3>
-    <ul>
-      <li>Einstellung von <strong>3 weiteren F&E-Mitarbeitern</strong> (E-Bike Fokus).</li>
-      <li>Erhöhung der Produktionskapazitäten.</li>
-      <li>Produktion: 3k E-Bikes (100% Auslastung).</li>
-    </ul>
-  </div>
-  <div>
-    <h3>Herausforderung</h3>
-    <ul>
-      <li>Wiederholter Fehler in Investitionskalkulation.</li>
-      <li>Unsicherheit und "Angst" im Markt wurde spürbar.</li>
-      <li>Strategische Entscheidung: Lagerentleerung über Dumpingpreise vorbereiten.</li>
-    </ul>
-  </div>
-</div>
+*   **Szenario:** Öffnung des E-Bike Markt1.
+*   **Entscheidung:**
+    *   Einstellung von **3 weiteren F&E-Mitarbeitern** (E-Bike Fokus).
+    *   Erhöhung der Produktionskapazitäten (2 neue C-Anlagen).
+    *   Produktion: 3k E-Bikes (100% Auslastung).
+*   **Warum?** Direkter Einstieg, um von Anfang an präsent zu sein
+*   **Herausforderungen:**
+    *   Erneuter Überziehungskredit (~580K €)
+    *   Risikobereitschaft antizyklisch zu handeln
+    *   große Lagerbeständen (4.115CB &	952EB)
 
 ---
 class: bg-red-900 text-white
@@ -203,9 +208,10 @@ Wir sind bewusst einen kontrollierten Verlust eingegangen (**-4.2 Mio € Verbin
   <div>
     <h3 class="text-white">Die Manöver</h3>
     <ul class="list-disc pl-4">
-      <li><strong>Lagerbereinigung:</strong> Abverkauf Citybikes zu Dumpingpreisen.</li>
+      <li><strong>Lagerbereinigung (5.396CB	& 2.543EB):</br>
+      </strong> Abverkauf Fahrräder durch unschlagbare Preise (300€ & 1000€).</li>
       <li><strong>Liquidität:</strong> Zahlungsbedingungen auf 2 Monate erhöht.</li>
-      <li><strong>Fokus:</strong> Weiterhin volle Investition in E-Bike Forschung.</li>
+      <li><strong>Fokus:</strong> Weiterhin volle Investition in E-Bike Forschung. (5 neue F&E Mitarbeiter von 13 auf 18 insgesamt)</li>
     </ul>
   </div>
   <div class="flex items-center justify-center">
@@ -217,34 +223,38 @@ Wir sind bewusst einen kontrollierten Verlust eingegangen (**-4.2 Mio € Verbin
 </div>
 
 ---
-layout: image-left
-image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80
----
 
 # Periode 5: Payoff 🚀
 **Strategie zahlt sich aus**
 
-Das geplante Manöver aus Periode 4 realisierte sich.
+Das geplante Manöver realisierte sich vollständig.
 
-*   ✅ **Finanzen:** Verbindlichkeiten von -4.2 Mio auf -800k reduziert.
-*   ✅ **Aktienkurs:** Sprung von Platz 3/4 auf **Platz 1**.
-*   ✅ **Markt:** Massive Stärkung der Position durch Forschungsergebnisse.
+* ✅ **Finanzen:** Verbindlichkeiten von -4.2 Mio auf -800k reduziert. Die 800k sind ein kurzfristiger Kredit, den wir gewählt haben, um einen Überziehungskredit zu meiden.
+* ✅ **Aktienkurs:** Sprung von 301 € auf **469 €** (+55% und erstmals Platz 1).
+* ✅ **Technologie:** E-Bike Index erreicht 140 Punkte - zweit höchster Wert, dafür unterdurchschnittlicher Preis.
 
-Wir blieben der Strategie treu – trotz Verlusten – und wurden belohnt.
+---
+
+# Periode 5: Payoff 🚀
+**Aktienkurs Verlauf**
+
+<div class="flex justify-center h-100 mt-4">
+  <img src="/sources/aktienkursP3-P6.png" class="h-full object-contain shadow-lg rounded" alt="Aktienkurs Verlauf" />
+</div>
 
 ---
 
 # Periode 6: Abschluss
-**Zukunft sichern**
+**Marktführer Status**
 
-*   Positive Marktnachrichten bestätigten unseren Kurs.
-*   **Maßnahmen:**
-    *   Produktion leicht erhöht.
-    *   Keine neuen Verbindlichkeiten.
-    *   Basis für nachhaltige E-Bike Marktführerschaft gelegt.
+* **Aktienkurs:** All-Time-High bei **594,33 €**.
+* **Marktanteil:** E-Bike Markt 1: **18,39%** und E-Bike Markt 2: **18,07%** sind Bestwerte.
+* **Finanzstärke:**
+    * Kassenbestand: ~4 Mio €.
+    * Investion in eine weitere C-Anlage
 
 <div class="bg-green-100 p-4 rounded mt-4 text-green-900 text-center font-bold">
-  Ergebnis: Marktanteile, Forschungsvorsprung und Aktienwert maximiert.
+  Ergebnis: Umsatzrendite auf 9,8% gesteigert bei maximaler technologischer Wettbewerbsfähigkeit.
 </div>
 
 ---
@@ -256,46 +266,57 @@ Was wir gelernt haben
 
 ---
 
-# Unser Team
-Klare Rollenverteilung als Erfolgsfaktor
+# Zusammenarbeit im Team
+Erfolg durch Struktur und Austausch
 
-<div class="grid grid-cols-3 gap-4 mt-8">
-  <div class="bg-white p-4 shadow rounded border-t-4 border-blue-500">
-    <h3 class="font-bold text-lg">Niklas</h3>
-    <div class="text-sm text-gray-500 mb-2">Struktur & Protokoll</div>
-    <p class="text-sm">Sorgte für Konsistenz, Transparenz und dokumentierte alle Entscheidungen.</p>
+<div class="grid grid-cols-2 gap-8 mt-8 text-dark-900">
+  <div class="bg-gray-100 p-4 rounded-lg border-l-4 border-teal-500 shadow-sm">
+    <h3 class="font-bold text-xl mb-2 text-teal-800">🗣️ Kommunikation</h3>
+    <ul class="list-disc pl-4 space-y-2">
+      <li>Feste Weeklys am Donnerstag.</li>
+      <li>Offene Diskussionskultur.</li>
+      <li>4-Augen-Prinzip bei Entscheidungen.</li>
+      <li>Alle Aufgaben zusammen gelöst (z.B. Minitask online)</li>
+    </ul>
   </div>
-  <div class="bg-white p-4 shadow rounded border-t-4 border-yellow-500">
-    <h3 class="font-bold text-lg">Sören</h3>
-    <div class="text-sm text-gray-500 mb-2">Markt & Analyse</div>
-    <p class="text-sm">Filterte Wirtschaftsnachrichten und lieferte die Basis für strategische Diskussionen.</p>
+  <div class="bg-gray-100 p-4 rounded-lg border-l-4 border-teal-500 shadow-sm">
+    <h3 class="font-bold text-xl mb-2 text-teal-800">🧠 Methodik</h3>
+    <ul class="list-disc pl-4 space-y-2">
+      <li>Datenbasierte Analysen.</li>
+      <li>Szenario-Planung (Best/Worst Case).</li>
+      <li>Visuelle Aufbereitung (Excalidraw).</li>
+      <li>Brainstorming.</li>
+    </ul>
   </div>
-  <div class="bg-white p-4 shadow rounded border-t-4 border-red-500">
-    <h3 class="font-bold text-lg">Rene</h3>
-    <div class="text-sm text-gray-500 mb-2">Kalkulation & Risiko</div>
-    <p class="text-sm">Modellierte Szenarien (z.B. den strategischen Verlust) für datenbasierte Entscheidungen.</p>
-  </div>
+</div>
+
+---
+
+# Visualisierung unserer Planung
+Beispiel einer Brainstorming-Session
+
+<div class="flex justify-center mt-4 h-100">
+  <img src="/sources/excalidraw.png" class="h-full object-contain shadow-lg rounded bg-white p-2" alt="Excalidraw Planung" />
 </div>
 
 ---
 
 # Key Takeaways
 
-<v-clicks>
+<div>
 
 1.  **Strategische Treue zahlt sich aus**
-    Nicht nervös werden bei kurzfristigen Verlusten (Periode 4). Der Plan war langfristig und ging auf.
+    52% Fremdkapitalquote in P4 in Kauf nehmen für den überlegten Plan.
 
 2.  **Mut zum antizyklischen Handeln**
-    Investieren, wenn andere sparen (F&E Aufbau in frühen Perioden).
+    Investition in 5 E-Bike F&E Mitarbeiter in P2, als der Markt noch nicht offen war.
 
 3.  **Daten statt Bauchgefühl**
-    Risiken (wie die Lagerbereinigung) wurden mathematisch kalkuliert, nicht geraten.
+    Die Ausschreibung in P4 (Preis 300€ und 1000€) wurde kalkuliert genutzt, um Lagerbestände in Cash umzuwandeln.
 
-</v-clicks>
+4.  **Weitsicht statt Panik**
+    Langfristige Planung und Ruhe zahlen sich aus – auch wenn es kurzfristig schwierig aussieht.
 
-<div v-click class="mt-12 text-center text-xl font-bold text-teal-600">
-  "Nicht das beste Ergebnis gewinnt – sondern das beste Management."
 </div>
 
 ---
@@ -305,4 +326,4 @@ layout: end
 # Vielen Dank!
 ## Fragen?
 
-Team Velotic: Niklas, Sören, Rene
+Team Velotic: Niklas, Sören, Rene, Andi
