@@ -64,7 +64,6 @@ Technologischer Marktführer im Premium-Segment mit Fokus auf E-Bikes.
 Wir bieten **exklusive Qualität** zu **zugänglichen Preisen**.
 
 ### Der Ansatz
-*   **Risikoarm:** Keine wilden Spekulationen.
 *   **Investitionsorientiert:** Fokus auf F&E und nachhaltiges Wachstum.
 *   **Stabilität:** Langfristige Skalierung statt kurzfristiger Profit.
 
@@ -153,6 +152,7 @@ layout: two-cols
 * **Entscheidungen:**
     * **Fertigungsmaschinen:** Verkauf einer alten Anlage vom Typ A, dafür Kauf von 2 neuen Typ C Anlagen.
     * **Personal:** Einstellung von drei F&E Mitarbeitern
+    * **Preis:** Erhöhung des Preises (440€ auf 496€) 
 * **Problem:** Überziehungskredit (~380K €) durch Unterschätzung hoher Anfangsinvestitionen.
 * **Learning:** Liquiditätsplanung muss die Anlaufkosten neuer Anlagen besser abbilden.
 
@@ -327,3 +327,93 @@ layout: end
 ## Fragen?
 
 Team Velotic: Niklas, Sören, Rene, Andi
+
+---
+layout: center
+class: text-center
+---
+
+# Backup: Skaleneffekte & Lagerstrategie
+### Analyse der Einsatzstoffe (ES) pro Periode
+
+<div class="grid grid-cols-2 gap-4 text-left mt-4 text-gray-800">
+  <div class="bg-gray-100 p-4 rounded shadow-sm">
+    <h3 class="text-teal-700 font-bold border-b border-teal-200 mb-2">Phase 1: Aufbau & Korrektur</h3>
+    <ul class="text-sm space-y-2">
+      <li><strong>P1:</strong> ES entsprach Fertigungsmenge, aber Lagerbestand wurde nicht berücksichtigt!</li>
+      <li><strong>P2:</strong> Strategische Leerung des Lagers zur Optimierung der Bestände.</li>
+    </ul>
+  </div>
+  <div class="bg-gray-100 p-4 rounded shadow-sm">
+    <h3 class="text-teal-700 font-bold border-b border-teal-200 mb-2">Phase 2: Skalierung (E-Bike Fokus)</h3>
+    <ul class="text-sm space-y-2">
+      <li><strong>P3:</strong> Nutzung von Skaleneffekten durch 1000 zusätzliche ES bei Citybikes.</li>
+      <li><strong>P4:</strong> ES entsprach Fertigungsmenge; Fokus auf Liquiditätssicherung (Lagerbestand wurde vernachlässigt).</li>
+    </ul>
+  </div>
+  <div class="bg-gray-100 p-4 rounded shadow-sm col-span-2">
+    <h3 class="text-teal-700 font-bold border-b border-teal-200 mb-2">Phase 3: Optimierung</h3>
+    <p class="text-sm">
+      <strong>P5:</strong> Lagerbereinigung bei City-Bikes + gezielter Aufbau von 700 ES für E-Bikes - Skaleneffekt.<br>
+      <strong>P6:</strong> Gezielter Verbleib von 200 Einheiten im Lager, um den maximalen Skaleneffekt im Einkauf zu sichern.
+    </p>
+  </div>
+</div>
+
+---
+
+# Backup: Kalkulation Skaleneffekte
+### Ersparnis durch Mengenrabatt vs. Lagerkosten (16€/Stück)
+
+<div class="mt-4 text-sm">
+
+| Periode | Produkt | Preisvorteil (ES) | Brutto-Ersparnis | Lagerkosten (Puffer) | Netto-Effekt |
+|:---|:---|:---|:---|:---|:---|
+| **P3** | City-Bike | 195€ statt 203€ | 32k Stk. × 8€ = **256k€** | 1000 Stk. × 16€ = **16k€** | <span class="text-green-600 font-bold">+ 240,0k€</span> |
+| **P5** | E-Bike | 698€ statt 738€ | 4.5k Stk. × 40€ = **180k€** | 700 Stk. × 16€ = **11,2k€** | <span class="text-green-600 font-bold">+ 168,8k€</span> |
+| **P6** | E-Bike | 698€ statt 738€ | 4.5k Stk. × 40€ = **180k€** | 200 Stk. × 16€ = **3,2k€** | <span class="text-green-600 font-bold">+ 176,8k€</span> |
+
+</div>
+
+<div class="mt-8 p-4 bg-teal-50 border-l-4 border-teal-500 italic text-sm text-gray-800">
+  <strong>Logik:</strong> Die Lagerkosten von 16€ pro Einheit wurden bewusst in Kauf genommen, da der Grenznutzen durch den niedrigeren Einkaufspreis (bis zu 40€ Ersparnis pro Stück) die Kosten bei weitem überstieg.
+</div>
+
+
+
+---
+layout: default
+---
+
+# Fehleranalyse: Kapazitätsplanung P3
+### Lessons Learned aus der operativen Planung
+
+<div class="grid grid-cols-2 gap-8 mt-4 text-gray-700">
+  <div class="bg-red-50 p-5 rounded-lg border-l-4 border-red-500 shadow-sm">
+    <h3 class="text-red-800 font-bold mb-3 flex items-center">
+      <span class="mr-2">❌</span> Die Planungs-Lücke
+    </h3>
+    <ul class="text-sm space-y-3">
+      <li><strong>Geplanter Absatz:</strong> 32.000 Stk. (27k M1 + 5k M2)</li>
+      <li><strong>Verfügbarkeit:</strong> 31.000 Stk. (Produktion) + 0 Stk. (Lager)</li>
+      <li class="pt-2 border-t border-red-200 font-bold text-red-700">
+        Ergebnis: Planungsfehler von 1.000 Einheiten (Unterdeckung).
+      </li>
+    </ul>
+  </div>
+
+  <div class="bg-green-50 p-5 rounded-lg border-l-4 border-green-500 shadow-sm">
+    <h3 class="text-green-800 font-bold mb-3 flex items-center">
+      <span class="mr-2">✅</span> Markteffekt & Analyse
+    </h3>
+    <p class="text-sm leading-relaxed">
+      Keine <strong>Out-of-Stock-Situation</strong> eingetreten:
+    </p>
+    <ul class="text-sm mt-2 space-y-2">
+      <li>Absatz lag marktbedingt unter der Prognose.</li>
+      <li>Fehlmenge wurde vollständig absorbiert.</li>
+      <li><strong>Learning:</strong> 4 Augen Prinzip - 32000 kamen vermutlich von den ES</li>
+    </ul>
+  </div>
+</div>
+
